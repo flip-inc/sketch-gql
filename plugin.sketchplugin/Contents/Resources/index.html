@@ -1,0 +1,66 @@
+<html>
+  <head>
+      <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="queries" class="header">
+      <div class="header__item header__item--active">
+        New Query
+      </div>
+      <div class="header__item">
+        Query
+      </div>
+    </div>
+    <div class="form">
+      <div class="form__wrapper">
+        <label>
+          Name
+        </label>
+        <input id="name" value="Test" placeholder="Enter name here..." />
+      </div>
+      <div class="form__wrapper">
+        <label>
+          Endpoint
+        </label>
+        <input id="endpoint" value="https://api.flip.lease/graphql" placeholder="Enter endpoint here..." />
+      </div>
+    </div>
+    <div class="form">
+      <div class="form__wrapper">
+      <label>
+        Query
+      </label>
+      <textarea id="query"  value="test"  placeholder="Enter query here...">
+query RootQuery {
+  listings {
+    edges {
+      node {
+        headline
+        rentInDollars
+        locationString
+        primaryPhoto {
+          url
+        }
+      }
+    }
+  }
+}
+      </textarea>
+    </div>
+  </div>
+    <div class="footer">
+      <button onclick="onSubmit()" class="btn pink-btn">Get Data</button>
+    </div>
+  </body>
+
+  <script>
+    function onSubmit() {
+      const query = document.getElementById('query').value;
+      const endpoint = document.getElementById('endpoint').value;
+      // console.log(query, endpoint);
+      // 
+      window.location.hash = `?query=${encodeURIComponent(JSON.stringify(query))}&endpoint=${encodeURIComponent(endpoint)}&timestamp=${Date().utc}`;
+      return ;
+    }
+  </script>
+</html>

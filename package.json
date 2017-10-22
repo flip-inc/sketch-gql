@@ -22,6 +22,7 @@
     "eslint": "^4.8.0",
     "eslint-config-airbnb-base": "^12.0.2",
     "eslint-config-prettier": "^2.6.0",
+    "eslint-plugin-cocoascript": "0.0.2",
     "eslint-plugin-import": "^2.7.0",
     "eslint-plugin-no-not-accumulator-reassign": "^0.1.0",
     "eslint-plugin-prettier": "^2.3.1",
@@ -39,5 +40,15 @@
       "eslint --quiet --rule 'prettier/prettier: [\"error\", {\"trailingComma\": \"es5\", \"singleQuote\": true}]'",
       "git add"
     ]
+  },
+  "dependencies": {
+    "apollo-client": "^1.9.3",
+    "apollo-client-preset": "0.1.0-1",
+    "graphql": "^0.11.7",
+    "graphql-tag": "^2.4.2",
+    "lodash": "^4.17.4",
+    "mocha-js-delegate": "^0.1.1",
+    "query-parse": "^2.0.0",
+    "sketch-module-web-view": "^0.1.8"
   }
 }
