@@ -2,7 +2,9 @@
 
 # sketch-gql
 
-## Use graphql data in your designs 💅🏻 ##
+Use graphql data in your designs 💅🏻
+
+Current build: *Broken*
 
 <img src="image.jpg" />
 
