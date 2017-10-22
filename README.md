@@ -1,4 +1,4 @@
-<img src="logo.png" height="50" width="50" />
+<img src="logo.png" height="100" width="100" />
 
 # sketch-gql
 
