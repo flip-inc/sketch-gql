@@ -1,4 +1,4 @@
-!()[logo.png]
+![](logo.png)
 # sketch-gql
 
 ### Use graphql data in your designs 💅🏻 ###
