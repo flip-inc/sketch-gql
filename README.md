@@ -1,8 +1,12 @@
 # sketch-gql
 
-### I know this code is gross ###
+### Use graphql data in your designs 💅🏻 ###
 
-## CLI Commands
+## Using the plugin
+
+The package builder automatically will update your sketch plugins folder :)
+
+## Getting started
 
 ``` bash
 # build with hot reload
@@ -11,7 +15,6 @@ npm run watch
 # build for production
 npm run build
 ```
-
 
 ## Debugging
 
