@@ -4,7 +4,7 @@
 
 ## Use graphql data in your designs 💅🏻 ##
 
-<img src="image.png" />
+<img src="image.jpg" />
 
 ### Using the plugin
 
