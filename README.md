@@ -4,7 +4,7 @@
 
 Use graphql data in your designs 💅🏻
 
-Current build: *Broken*
+Current build status: *Broken*
 
 <img src="image.jpg" />
 
