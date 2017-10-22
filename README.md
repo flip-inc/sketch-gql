@@ -2,13 +2,15 @@
 
 # sketch-gql
 
-### Use graphql data in your designs 💅🏻 ###
+## Use graphql data in your designs 💅🏻 ##
 
-## Using the plugin
+<img src="image.png" />
+
+### Using the plugin
 
 The package builder automatically will update your sketch plugins folder :)
 
-## Getting started
+### Getting started
 
 ``` bash
 # build with hot reload
@@ -18,7 +20,7 @@ npm run watch
 npm run build
 ```
 
-## Debugging
+### Debugging
 
 To view the output of your `console.log`, you have a few different options:
 * Open `Console.app` and look for the sketch logs
