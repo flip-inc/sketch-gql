@@ -3,16 +3,16 @@
   "bundleVersion": 1,
   "commands": [
     {
-      "name": "my-command",
-      "identifier": "my-command-identifier",
-      "script": "./my-command.js"
+      "name": "sketch-gql",
+      "identifier": "sketch-gql-identifier",
+      "script": "./main.js"
     }
 
   ],
   "menu": {
-    "title": "gql",
+    "title": "sketch-gql",
     "items": [
-      "my-command-identifier"
+      "Launch"
     ]
   }
 }
