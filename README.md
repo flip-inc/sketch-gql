@@ -1,4 +1,5 @@
-![](logo.png=50x50)
+<img src="logo.png" height="50" width="50" />
+
 # sketch-gql
 
 ### Use graphql data in your designs 💅🏻 ###
