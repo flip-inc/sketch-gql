@@ -4,8 +4,6 @@
 
 Use graphql data in your designs 💅🏻
 
-Current build status: *Broken*
-
 <img src="image.jpg" />
 
 ### Using the plugin
